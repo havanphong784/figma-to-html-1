@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <header class="w-full py-3.25 bg-bg_color gap-18.25
-    flex justify-center items-center border-b border-solid border-border_color">
+    flex justify-center items-center border-b border-solid border-border_color fixed top-0 z-1">
         <img src="./img/logo.png" alt="" class="w-9.5 h-9.5 object-cover">
         <div class="flex rounded-[60px] px-10 py-2 gap-3 text-white border border-solid border-border_color">
             <div class="flex items-center gap-0.5">Features
@@ -41,8 +47,108 @@
             </div>
         </div>
     </header>
-    <section class="mt-10.25 bg-bg_color ">
-
+    <section class="bg-bg_color mt-17.5 flex items-center flex-col justify-center">
+        <div class="slider-one w-full flex items-center justify-center flex-col relative">
+            <div
+                class="mt-11.25 flex px-3.5 py-2 items-center gap-1.75 rounded-[50px] bg-black border border-border_color">
+                <p
+                    class="text-[10px] leading-6.5 bg-second_color border rounded-[40px] px-2.5 font-title font-bold tracking-[-0.001px]">
+                    NEW</p>
+                <p class="text-[16px] text-second_color">Latest integration just arrived</p>
+            </div>
+            <div
+                class="slider-one__title w-146.5 h-42 mt-3.25 text-white text-center font-title leading-21 text-[82px] tracking-[-4.149px] font-mediums mb-4">
+                Boost
+                your
+                rankings with AI.</div>
+            <div
+                class="slider-one__content w-135 text-center text-[20px] leading-7.75 tracking-[-0.002px] font-title text-white mb-4 bg-transparent font-normal">
+                Elevate your site’s
+                visibility
+                effortlessly with AI,
+                where smart technology meets user-friendly SEO tools.</div>
+            <div
+                class="slider-one__btn px-3.25 py-1.25 rounded-[8px] bg-white text-[15px] leading-7.75 tracking-[-0.151px] font-title font-medium mb-10">
+                Start for free
+            </div>
+            <div class="slider-one__img w-[93.33%] flex justify-center flex-col items-center p-4 z-2">
+                <img src="./img/appwide.png" alt="" class="w-full object-con">
+            </div>
+            <div class="slider-one__footer w-full h-88 absolute bottom-0 z-2"></div>
+            <div
+                class="slider-one__circle w-[85.83%] aspect-square absolute bottom-5 border-[#ffffff08] rounded-full border flex items-center justify-center z-1">
+                <div
+                    class="slider-one__circle-1 w-[87%] bg-[#602A9A] blur-[267px] rounded-full aspect-square flex items-center justify-center">
+                    <div class="w-[77.5%] aspect-square border border-white"></div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-two flex justify-center items-center w-full flex-col">
+            <div class="text-[16px] leading-4 font-title tracking-[-0.002px] text-white mt-15">Trusted by the
+                world’s most
+                innovative teams</div>
+            <div class="grid grid-cols-4 grid-rows-2 gap-2.5 w-[79%] mt-10 mb-15">
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme1.png" alt="" class="w-full">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme2.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme3.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme4.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme5.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme6.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme7.png" alt="">
+                </div>
+                <div
+                    class="flex justify-center items-center border border-border_color rounded-[10px] px-10 py-8 w-auto">
+                    <img src="./img/acme8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slider-three w-[90.83%] flex py-20 px-12.5 flex-col justify-center items-center">
+            <div
+                class="w-138.25 text-center flex flex-col items-center justify-center text-[32px] leading-9.5 font-title traking-[-0.013px] font-medium text-white">
+                Harness the power of
+                AI, making
+                search engine
+                optimization intuitive and effective for all skill levels.</div>
+            <div class="flex w-full pt-7.75">
+                <div class="w-full flex gap-2.5">
+                    <div class="w-86.5 px-10 pb-10 border rounded-[10px] border-border_color ">
+                        <img src="./img/visual.png" alt="" class="w-full mt-7.25">
+                        <div class="text-[16px] leading-9.5 text-white tracking-[-0.002px] font-medium font-title">SEO
+                            goal
+                            setting
+                        </div>
+                        <div class="text-[16px] leading-6.5 text-white tracking-[-0.002px] font-title">Helps you set and
+                            achieve SEO
+                            goals with guided
+                            assistance.</div>
+                    </div>
+                    <div
+                        class="border rounded-[10px] flex-1 bg-amber-700 slider-three__contentone border-border_color h-full">
+                    </div>
+                </div>
+            </div>
+            <div class=""></div>
+        </div>
     </section>
 </body>
 

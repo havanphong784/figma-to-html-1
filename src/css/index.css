@@ -1,0 +1,27 @@
+.slider-one__title {
+  background: linear-gradient(180deg, #fff 54.17%, #b372cf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slider-one__img {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    270deg,
+    #0d0718 0%,
+    rgba(15, 8, 27, 0) 47.85%,
+    #0b0614 100%
+  );
+  box-shadow: 0 -20px 70px 0 rgba(140, 69, 255, 0.25),
+    0 -19px 70px 0 rgba(140, 69, 255, 0.4);
+}
+
+.slider-one__footer {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 3.8%, #050208 86.04%);
+}
+
+.slider-three__contentone {
+  background: linear-gradient(180deg, rgba(3, 1, 6, 0) 29.33%, #361764 89.04%);
+}

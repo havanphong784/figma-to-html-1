@@ -7,6 +7,10 @@ export default {
         bg_color: "#020103",
         border_color: "rgba(255, 255, 255, 0.15)",
         btn_color: "rgba(140, 69, 255, 0.40)",
+        second_color: "#9855FF",
+      },
+      fontFamily: {
+        title: ["Inter", "sans-serif"],
       },
     },
   },
