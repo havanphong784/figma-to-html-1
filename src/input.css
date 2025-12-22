@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
+@layer components {
+  .grid-items {
+    @apply flex flex-col w-full;
+  }
+  .grid-items__des {
+    @apply w-full flex items-center gap-1.25;
+  }
+  .grid-items__title {
+    @apply text-[16px] font-title font-medium leading-7.75 tracking-[-0.002px] text-white;
+  }
+  .grid-items__content {
+    @apply text-[16px] font-title leading-7.75 tracking-[-0.002px] text-white opacity-70;
+  }
+}
