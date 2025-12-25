@@ -13,4 +13,26 @@
   .grid-items__content {
     @apply text-[16px] font-title leading-7.75 tracking-[-0.002px] text-white opacity-70;
   }
+  .slider-five__col {
+    @apply opacity-60;
+    background: linear-gradient(
+      #141315 0%,
+      #ffffff 16.5%,
+      #eaeaea 86.5%,
+      #020103 100%
+    );
+  }
+  .slider-five__row {
+    @apply opacity-60;
+    background: linear-gradient(
+      90deg,
+      #141315 0%,
+      #fff 16.5%,
+      #eaeaea 86.5%,
+      #020103 100%
+    );
+  }
+  .slider-six__card {
+    @apply h-125 rounded-[10px] border border-border_color;
+  }
 }
