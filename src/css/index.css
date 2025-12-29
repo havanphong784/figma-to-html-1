@@ -29,3 +29,14 @@
 .slider-four {
   background: linear-gradient(107deg, #190d2e 0.54%, #020103 99.46%);
 }
+
+.active .slider-six__card__btn {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(140, 69, 255, 0.4);
+  box-shadow: 0 0 6px 3px rgba(255, 255, 255, 0.25) inset;
+}
+
+.active.slider-six__card {
+  background: linear-gradient(180deg, #010002 0%, #361764 100%);
+  box-shadow: 0 10px 74px 10px rgba(78, 0, 191, 0.41);
+}
